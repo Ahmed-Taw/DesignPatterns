@@ -1,0 +1,3 @@
+﻿Mediator is a communication channel between colleague classes 
+instead of couple the colleague classes with each others so all of them depend on a mediator 
+and the mediator handles the communication between them

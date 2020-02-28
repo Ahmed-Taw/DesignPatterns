@@ -1,0 +1,19 @@
+﻿the bridge pattern is bridging some functionality out side the base abstraction to be able to handle it from out side the concrete class 
+instead of create new concrete type for each variation.
+
+Example 
+I have a manuscript base 
+and Book, FAQ, Paper implement it 
+base has function called print to print out some thing 
+
+problem if i want to add another format for printing 
+solution:
+add a flag inside print function inside each implementation and change based on it
+problem i may want more changes with time 
+
+so bridge pattern solve this problem now:
+we can change the manuscript to abstract instead of interface and make it take as a constructor parameter interface for formatter 
+
+and change the print function to use the formate function inside the formatter concrete
+then we can change the formatting as we want without need to change in the print function 
+just create new concrete formatter and send it to the constructor 

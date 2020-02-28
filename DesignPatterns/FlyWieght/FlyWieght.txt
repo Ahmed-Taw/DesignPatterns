@@ -1,0 +1,10 @@
+﻿flyweight Pattern is:
+   using an object from a pool in case we are trying to generate exact object 
+   and create  new object in the pool in case we don't have the object in the pool.
+   
+Real examples:
+.net string class 
+e.g. 
+string s1 = "test";
+string s2= "test"
+is the same object 

@@ -1,0 +1,13 @@
+﻿Applicable with:
+Old code
+Adding functionality to controls 
+sealed classes 
+
+Decorator is:
+we have a base class and derived classes and we need to add functionality to those derived classes 
+but we don't want to open it, or have a lot of combinations so we don't want to create a new class for each combinations
+
+solution is decorator:
+1- we create a class that inherit from the same base lass or interface which means we can pass it instead of those classes 
+2- create a property inside that decorator with base class type to wrap the original class in it 
+3- add your extra functionality to decorator 

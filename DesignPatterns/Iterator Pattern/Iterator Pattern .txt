@@ -1,0 +1,3 @@
+﻿Ienumerable is Aggregate 
+Ienumerator is iterator 
+and those is used in all lists that have enumerator 

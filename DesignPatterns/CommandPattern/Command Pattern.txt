@@ -1,0 +1,9 @@
+﻿Instead of calling different function to do a command based on the user input 
+
+we can use the command pattern 
+1- create command interface 
+2- concrete implementation for each command 
+3- Create I commandFactory interface which have function to create the command 
+
+4- Create command executer which responsible call the command factory based on which command we received from the user 
+5- to get the correct command to create that happened by register the available command in the command executer and with every new command we just register it 

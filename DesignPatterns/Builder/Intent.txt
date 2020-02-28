@@ -1,0 +1,9 @@
+﻿separate logic and data 
+1-first problem: multiple parameter to distinguish between the objects solve it by remove parameter from constructor and set them after that to face the second problem 
+
+2-second problem: setting a lot of properties after initialization  solve it by make a class builder and sett all the parameter inside a functions there and call one function to get the object to face the third problem different types of objects 
+
+3- third one : if we have different sets of properties for different types 
+
+
+builder is for objects which has a lot of properties which is usually get different values 

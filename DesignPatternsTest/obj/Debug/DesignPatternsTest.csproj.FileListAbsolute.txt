@@ -1,0 +1,17 @@
+D:\Work\DesignPatterns\DesignPatternsTest\obj\Debug\DesignPatternsTest.csprojAssemblyReference.cache
+D:\Work\DesignPatterns\DesignPatternsTest\obj\Debug\DesignPatternsTest.csproj.CoreCompileInputs.cache
+D:\Work\DesignPatterns\DesignPatternsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Work\DesignPatterns\DesignPatternsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Work\DesignPatterns\DesignPatternsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Work\DesignPatterns\DesignPatternsTest\bin\Debug\DesignPatternsTest.dll
+D:\Work\DesignPatterns\DesignPatternsTest\bin\Debug\DesignPatternsTest.pdb
+D:\Work\DesignPatterns\DesignPatternsTest\bin\Debug\DesignPatterns.exe
+D:\Work\DesignPatterns\DesignPatternsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Work\DesignPatterns\DesignPatternsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Work\DesignPatterns\DesignPatternsTest\bin\Debug\DesignPatterns.pdb
+D:\Work\DesignPatterns\DesignPatternsTest\bin\Debug\DesignPatterns.exe.config
+D:\Work\DesignPatterns\DesignPatternsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Work\DesignPatterns\DesignPatternsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Work\DesignPatterns\DesignPatternsTest\obj\Debug\DesignPatternsTest.csproj.CopyComplete
+D:\Work\DesignPatterns\DesignPatternsTest\obj\Debug\DesignPatternsTest.dll
+D:\Work\DesignPatterns\DesignPatternsTest\obj\Debug\DesignPatternsTest.pdb

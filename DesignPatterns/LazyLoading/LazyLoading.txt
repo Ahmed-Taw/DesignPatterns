@@ -1,0 +1,9 @@
+﻿Types:
+1- Lazy Initialization
+2- Virtual proxy   ---> need to handle identity or equality 
+    - Make the property that will be accessed from proxy as virtual 
+	- Create proxy type inheriting from the base type and override the virtual property
+	-in the override of the property we initialize the property type or call the DB to load it 
+
+3- Value Holder 
+   - similar to Lazy load so if we work with .net 4 or higher use Lazy 

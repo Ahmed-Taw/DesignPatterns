@@ -1,0 +1,14 @@
+﻿using the adapter pattern make you close for Open close principle 
+
+
+the intent of adapter design pattern 
+--> Convert the interface of a class into another interface clients expect 
+
+--> allow classes to work together that couldn't otherwise due to incompatible interface 
+
+
+Related Design Patterns:
+
+Repository Pattern 
+Strategy Pattern : considered to be the same implementation as the strategy wrap the implementation inside it as a property 
+Facade : adapter and facade are both wrappers but facade wrapping multiple classes implementation but adapter only wrap the adaptee  
