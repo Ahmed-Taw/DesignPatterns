@@ -1,0 +1,9 @@
+﻿Remote Proxy 
+
+Virtual Proxy 
+
+Protection proxy 
+
+Client s works with proxy as a real object 
+
+proxy who control the access to the real object 

@@ -36,9 +36,10 @@ namespace DesignPatterns
             //    Console.WriteLine(re.Current);
             //}
 
-            OrderBad orderBad = new OrderBad();
-            string companyname = orderBad.Customer.CompanyName;
+            //OrderBad orderBad = new OrderBad();
+            //string companyname = orderBad.Customer.CompanyName;
 
+            //DesignPatterns.Singlton.Singlton singlton = DesignPatterns.Singlton.Singlton.Instance;
                 Console.ReadLine();
         }
     }

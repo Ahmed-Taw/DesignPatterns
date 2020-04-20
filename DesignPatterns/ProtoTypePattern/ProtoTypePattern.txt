@@ -1,0 +1,7 @@
+﻿Problems that got solved by ProtoType Patterns 
+1- Constructive is Expensive 
+2- State is important 
+3- Hiding the constructor 
+
+Defintion:
+ specify the kinds of objects to create using a prototypical instance and create new objects by copying this prototype

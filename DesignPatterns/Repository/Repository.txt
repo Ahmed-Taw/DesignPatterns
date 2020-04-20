@@ -1,0 +1,5 @@
+﻿the main aim of repository pattern is:
+reducing the duplication of the code that accessng the data source 
+like opening cocnnections closing connection and so on.
+
+that enable us from achive separaction of concerns, and make the code testable.

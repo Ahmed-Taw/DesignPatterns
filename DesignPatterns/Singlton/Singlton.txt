@@ -1,0 +1,7 @@
+﻿singlton is creating one and only one instance from a class in the application.
+1- the class should contolr that it has only one instnce from it
+2- it shouldn't has parameter for construction because 
+	if it has parameter that means it could has different shaps or values 
+	so it is not a singlton.
+
+some times when creation of object is expensive singltone enhance the performance.

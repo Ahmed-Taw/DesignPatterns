@@ -58,6 +58,13 @@
     <Compile Include="Builder\Sandwitch.cs" />
     <Compile Include="Builder\SandwitchBuilder.cs" />
     <Compile Include="Builder\SandwitchMaker.cs" />
+    <Compile Include="Chain Of Responsability\Approval.cs" />
+    <Compile Include="Chain Of Responsability\ConsoleInput.cs" />
+    <Compile Include="Chain Of Responsability\Employee.cs" />
+    <Compile Include="Chain Of Responsability\EndOfChainExpenseHandler.cs" />
+    <Compile Include="Chain Of Responsability\ExpenseHandler.cs" />
+    <Compile Include="Chain Of Responsability\ExpenseReport.cs" />
+    <Compile Include="Chain Of Responsability\Interfaces.cs" />
     <Compile Include="CompositPattern\CompositeInterface.cs" />
     <Compile Include="CompositPattern\Group.cs" />
     <Compile Include="CompositPattern\Person.cs" />
@@ -76,8 +83,42 @@
     <Compile Include="LazyLoading\ValueHolder.cs" />
     <Compile Include="LazyLoading\IValueLoader.cs" />
     <Compile Include="LazyLoading\ValueLoader.cs" />
+    <Compile Include="Null Reference Pattern\IDataFormatter.cs" />
+    <Compile Include="Null Reference Pattern\NullReferenceFormmater.cs" />
+    <Compile Include="Observer Pattern\IObserver\GoogleMonitor.cs" />
+    <Compile Include="Observer Pattern\IObserver\MicrosoftMonitor.cs" />
+    <Compile Include="Observer Pattern\IObserver\Program.cs" />
+    <Compile Include="Observer Pattern\IObserver\StockTicker.cs" />
+    <Compile Include="Observer Pattern\SampleData.cs" />
+    <Compile Include="Observer Pattern\Stock.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProtoTypePattern\WebPageScrapper.cs" />
+    <Compile Include="Rules Pattern\Customer.cs" />
+    <Compile Include="Rules Pattern\DiscountCalculator.cs" />
+    <Compile Include="Service Locator Pattern\LoggingClass.cs" />
+    <Compile Include="Service Locator Pattern\Programe.cs" />
+    <Compile Include="Service Locator Pattern\ServiceLocator.cs" />
+    <Compile Include="Singlton\Singlton.cs" />
+    <Compile Include="Singlton\ThreadSafeSinglton.cs" />
+    <Compile Include="State Pattern\ICommands.cs" />
+    <Compile Include="State Pattern\States\Active.cs" />
+    <Compile Include="State Pattern\States\BaseState.cs" />
+    <Compile Include="State Pattern\States\Closed.cs" />
+    <Compile Include="State Pattern\States\Proposed.cs" />
+    <Compile Include="State Pattern\States\Resolved.cs" />
+    <Compile Include="State Pattern\WorkItem.cs" />
+    <Compile Include="Strategy Pattern\Address.cs" />
+    <Compile Include="Strategy Pattern\Order.cs" />
+    <Compile Include="Strategy Pattern\ShippingService\FedExShippingCostStrategy.cs" />
+    <Compile Include="Strategy Pattern\ShippingService\IShippingCostStrategy.cs" />
+    <Compile Include="Strategy Pattern\ShippingService\ShippingCostCalculatorService.cs" />
+    <Compile Include="Strategy Pattern\ShippingService\UPSShippingCostStrategy.cs" />
+    <Compile Include="Strategy Pattern\ShippingService\USPSShippingCostStrategy.cs" />
+    <Compile Include="Template Method Pattern\FedExOrderShipment.cs" />
+    <Compile Include="Template Method Pattern\Order Shipment.cs" />
+    <Compile Include="Template Method Pattern\UpsOrderShipment.cs" />
+    <Compile Include="Visitor Pattern\Visitor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -93,9 +134,14 @@
     <Content Include="Iterator Pattern\Iterator Pattern .txt" />
     <Content Include="LazyLoading\LazyLoading.txt" />
     <Content Include="Mediator\Mediator.txt" />
+    <Content Include="ProtoTypePattern\ProtoTypePattern.txt" />
+    <Content Include="ProxyPattern\ProxyPattern.txt" />
+    <Content Include="Repository\Repository.txt" />
+    <Content Include="Singlton\Singlton.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Chain Of Responsability\" />
+    <Folder Include="Memento\" />
+    <Folder Include="Specification Pattern\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
