@@ -58,6 +58,7 @@
     <Compile Include="Builder\Sandwitch.cs" />
     <Compile Include="Builder\SandwitchBuilder.cs" />
     <Compile Include="Builder\SandwitchMaker.cs" />
+    <Compile Include="Caretaker.cs" />
     <Compile Include="Chain Of Responsability\Approval.cs" />
     <Compile Include="Chain Of Responsability\ConsoleInput.cs" />
     <Compile Include="Chain Of Responsability\Employee.cs" />
@@ -83,11 +84,14 @@
     <Compile Include="LazyLoading\ValueHolder.cs" />
     <Compile Include="LazyLoading\IValueLoader.cs" />
     <Compile Include="LazyLoading\ValueLoader.cs" />
+    <Compile Include="Memento\CareTaker.cs" />
+    <Compile Include="Memento\ConcreteMemento.cs" />
+    <Compile Include="Memento\IMemento.cs" />
+    <Compile Include="Memento\Originator.cs" />
     <Compile Include="Null Reference Pattern\IDataFormatter.cs" />
     <Compile Include="Null Reference Pattern\NullReferenceFormmater.cs" />
     <Compile Include="Observer Pattern\IObserver\GoogleMonitor.cs" />
     <Compile Include="Observer Pattern\IObserver\MicrosoftMonitor.cs" />
-    <Compile Include="Observer Pattern\IObserver\Program.cs" />
     <Compile Include="Observer Pattern\IObserver\StockTicker.cs" />
     <Compile Include="Observer Pattern\SampleData.cs" />
     <Compile Include="Observer Pattern\Stock.cs" />
@@ -140,7 +144,6 @@
     <Content Include="Singlton\Singlton.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Memento\" />
     <Folder Include="Specification Pattern\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

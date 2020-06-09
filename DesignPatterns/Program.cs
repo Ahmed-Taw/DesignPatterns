@@ -1,5 +1,8 @@
 ﻿using DesignPatterns.Bridge;
 using DesignPatterns.LazyLoading;
+using DesignPatterns.Memento;
+using DesignPatterns.Observer_Pattern;
+using DesignPatterns.Observer_Pattern.IObserver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,7 +43,44 @@ namespace DesignPatterns
             //string companyname = orderBad.Customer.CompanyName;
 
             //DesignPatterns.Singlton.Singlton singlton = DesignPatterns.Singlton.Singlton.Instance;
-                Console.ReadLine();
+
+            //StockTicker st = new StockTicker();
+
+            //GoogleMonitor gf = new GoogleMonitor();
+            //MicrosoftMonitor mf = new MicrosoftMonitor();
+
+            //using (st.Subscribe(gf))
+            //using (st.Subscribe(mf))
+            //{
+            //    foreach (var s in SampleData.getNext())
+            //        st.Stock = s;
+            //}
+
+            // Client code.
+            Originator originator = new Originator("Super-duper-super-puper-super.");
+            CareTaker caretaker = new CareTaker(originator);
+
+            caretaker.Backup();
+            originator.DoSomething();
+
+            caretaker.Backup();
+            originator.DoSomething();
+
+            caretaker.Backup();
+            originator.DoSomething();
+
+            Console.WriteLine();
+            caretaker.ShowHistory();
+
+            Console.WriteLine("\nClient: Now, let's rollback!\n");
+            caretaker.UnDo();
+
+            Console.WriteLine("\n\nClient: Once more!\n");
+            caretaker.UnDo();
+
+            Console.WriteLine("\n\nClient: Original state!\n");
+            caretaker.UnDo();
+            Console.ReadLine();
         }
     }
 }
